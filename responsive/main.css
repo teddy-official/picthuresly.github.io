@@ -1,0 +1,673 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)),url(https://images.unsplash.com/photo-1617746029822-3f36f2ba0f49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvYWQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.navabove{
+    width:100%;
+    height:160px;
+    border-bottom: .4px solid rgba(255, 255, 255, 0.334);
+}
+.navabove img{
+    width:150px;
+    height:120px;
+    margin:30px 70px;
+}
+.navabove ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -100px;
+    margin-left: 600px;
+}
+.navabove a{
+    color:#fff;
+    font-size: 1.9rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding-left: 35px;
+    text-decoration:none;
+    display:inline-flex;
+    text-transform: capitalize;
+    flex-direction: row;
+}
+.logos{
+    display: none;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(13, 13, 13);
+    margin: -50px 130px;
+}
+.textabove{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+
+}
+.textabv{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textabv span{
+    color: #fd5203;
+}
+.textabvsec{
+    color: whitesmoke; 
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+}
+.textabvsec span{
+    color: #fd5203;
+    text-transform: capitalize;
+    font-size: 2rem;
+    letter-spacing: 4x;
+    font-weight: 500;
+}
+
+.btn{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+a.btn1{
+    text-decoration: none;
+    color: rgb(251, 247, 247);
+    padding: 17px 30px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+     background: linear-gradient(to top right,rgb(243, 76, 4) ,rgb(248, 72, 2));
+}
+a.btn2{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 242, 242);
+    padding: 15px 30px;
+    border: 2px solid #fd5203;
+    margin-left: 30px;
+}
+
+.imgheder h1{
+   margin: 40px 230px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgheder p{
+    margin: 40px 450px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.imgcon{
+    display:flex;
+    margin: 180px 170px;
+}  
+.frimg  img{
+    width: 300px;
+    height: 300px;
+}
+.secimg img{
+    width: 300px;
+    height: 300px;
+    margin: 0 30px;
+}
+.thereimg img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*b/n tablet and phone white back*/
+@media only screen and (min-width:400px) {
+    .container{
+        width:100%;
+        height:100vh;
+        margin:0;
+        background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)) ,url(https://plus.unsplash.com/premium_photo-1670347626043-02de33917fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-size: cover;
+    }
+    .navabove{
+        width:100%;
+        height:90px;
+    }
+    .navabove img{
+        width:100px;
+        height:70px;
+        margin:10px 40px;
+        z-index: 1;
+    }
+    .navabove ul{
+        margin-top: -50px;
+        margin-left:124px;
+    }
+    .navabove a{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .logos{
+        display: none;
+    }
+    .textabove{
+        position: absolute;
+        top: 35%;
+        left: 8%;
+    
+    }
+    .textabv{
+        color: whitesmoke;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textabv span{
+        color: #fd5203;
+    
+    }
+    .textabvsec span{
+        color: #fd5203;
+        font-weight: 500;
+    }
+        
+.btn{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+a.btn1{
+    padding: 17px 30px;
+}
+a.btn2{
+    padding: 15px 30px;
+    margin-left: 30px;
+}
+.imgheder h1{
+    margin: 40px 50px;
+    font-weight: 700;
+    font-size: 1.4rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .imgheder p{
+     margin: 40px 40px;
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ .imgcon{
+     display:block;
+     margin: 50px 40px;
+ }  
+ .frimg  img{
+    width: 340px;
+    height: 300px;
+}
+.secimg img{
+    width: 340px;
+    height: 300px;
+    margin: 30px 0px;
+}
+.thereimg img{
+    width: 340px;
+    height: 300px;
+}
+   
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    .container{
+        width:100%;
+        height:120vh;
+        margin:0;
+        background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)) ,url(https://images.unsplash.com/photo-1670960058964-79063a8ecc91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-size: cover;
+    }
+    .navabove{
+        width:100%;
+        height:90px;
+    }
+    .navabove img{
+        width:100px;
+        height:70px;
+        margin:-10px 100px;
+        z-index: 1;
+    }
+    .navabove ul{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .navabove a{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .logos{
+        display: none;
+    }
+    .textabove{
+        position: absolute;
+        top: 35%;
+        left: 3%;
+    
+    }
+    .textabv{
+        color: whitesmoke;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textabv span{
+        color: #fd5203;
+    
+    }
+    .textabvsec span{
+        color: #fd5203;
+        font-weight: 500;
+    }
+        
+.btn{
+    position: absolute;
+    top: 96%;
+    left: 4%;
+}
+a.btn1{
+    padding: 17px 20px;
+}
+a.btn2{
+    padding: 15px 20px;
+    margin-left: 20px;
+}
+.imgheder h1{
+    margin: 40px 50px;
+    font-weight: 700;
+    font-size: 1.4rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .imgheder p{
+     margin: 40px 40px;
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ .imgcon{
+     display:block;
+     margin: 50px 30px;
+ }  
+ .frimg  img{
+    width: 300px;
+    height: 300px;
+}
+.secimg img{
+    width: 300px;
+    height: 300px;
+    margin: 30px 0px;
+}
+.thereimg img{
+    width: 300px;
+    height: 300px;
+}
+ 
+   
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container{
+        width:100%;
+        height:90vh;
+        margin:0;
+        background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)),url(https://images.unsplash.com/photo-1585068294277-b408285aee4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cm9hZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navabove{
+        width:100%;
+        height:90px;
+    }
+    .navabove img{
+        width:100px;
+        height:70px;
+        margin:3px 70px;
+        z-index: 1;
+    }
+    .navabove ul{
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+    .navabove a{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+   
+    .logos{
+        font-size: 1.3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(249, 243, 243);
+        margin: -50px 150px;
+        display:flex;
+    }
+    .logos span{
+        color: #fd5203;
+    }
+    .textabove{
+        position: absolute;
+        top: 25%;
+        left: 6%;
+    
+    }
+    .textabv{
+        color: whitesmoke;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textabv span{
+        color: #fd5203;
+    
+    }
+    .textabvsec span{
+        color: #fd5203;
+        font-weight: 500;
+    }
+        
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+a.btn1{
+    padding: 17px 30px;
+}
+a.btn2{
+    padding: 12px 30px;
+    margin-left: 30px;
+}
+.imgheder h1{
+    margin: 40px 140px;
+    font-weight: 700;
+    font-size: 1.4rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .imgheder p{
+     margin: 40px 140px;
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ .imgcon{
+     display:block;
+     margin: 50px 100px;
+ }  
+ .frimg  img{
+    width: 400px;
+    height: 300px;
+}
+.secimg img{
+    width: 400px;
+    height: 300px;
+    margin: 30px 0px;
+}
+.thereimg img{
+    width: 400px;
+    height: 300px;
+}
+ 
+
+    
+}
+/* Medium devices (landscape,tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        width:100%;
+        height:90vh;
+        margin:0;
+        background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)),url(https://images.unsplash.com/photo-1585068294277-b408285aee4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cm9hZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navabove{
+        width:100%;
+        height:90px;
+    }
+    .navabove img{
+        width:100px;
+        height:70px;
+        margin:3px 50px;
+        z-index: 1;
+    }
+    .navabove ul{
+        margin-top: 30px;
+        margin-left: 400px;
+    }
+    .navabove a{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .logos{
+        font-size: 1.3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(241, 233, 233);
+        margin: -50px 130px;
+        display: flex;
+   }
+    .logos span{
+        color: #fd5203;
+    }
+    .textabove{
+        position: absolute;
+        top: 35%;
+        left: 17%;
+    
+    }
+    .textabv{
+        color: whitesmoke;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textabv span{
+        color: #fd5203;
+    
+    }
+    .textabvsec span{
+        color: #fd5203;
+        font-weight: 500;
+    }
+    
+.btn{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+a.btn1{
+    padding: 17px 30px;
+}
+a.btn2{
+    padding: 15px 30px;
+    margin-left: 30px;
+}
+.imgheder h1{
+    margin: 40px 170px;
+    font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .imgheder p{
+     margin: 40px 190px;
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ .imgcon{
+     display:flex;
+     margin: 180px 20px;
+ }  
+ .frimg  img{
+    width: 220px;
+    height: 300px;
+}
+.secimg img{
+    width: 220px;
+    height: 300px;
+    margin: 0 30px;
+}
+.thereimg img{
+    width: 220px;
+    height: 300px;
+}
+
+   
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        width:100%;
+        height:95vh;
+        margin:0;
+        background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)),url(https://images.unsplash.com/photo-1585068294277-b408285aee4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cm9hZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navabove{
+        width:100%;
+        height:90px;
+    }
+    .navabove img{
+        width:100px;
+        height:70px;
+        margin:3px 80px;
+        z-index: 1;
+    }
+    .navabove ul{
+        margin-top: 20px;
+        margin-left: 600px;
+    }
+    .navabove a{
+        font-size: 1rem;
+        padding-left: 10px;
+        color: rgb(254, 253, 250);
+    } 
+    .logos{
+        font-size: 1.3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(241, 233, 233);
+        margin: -40px 160px;
+        display: flex;
+   }
+    .logos span{
+        color: #fd5203;
+    }
+        
+.btn{
+    position: absolute;
+    top: 65%;
+    left: 37%;
+}
+a.btn1{
+    padding: 17px 30px;
+}
+a.btn2{
+    padding: 15px 30px;
+    margin-left: 30px;
+}
+.imgheder h1{
+    margin: 40px 240px;
+    font-size: 1.2rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .imgheder p{
+     margin: 40px 280px;
+     font-size: 1.3rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ .imgcon{
+     display:flex;
+     margin: 180px 40px;
+ }  
+ .frimg  img{
+    width: 280px;
+    height: 300px;
+}
+.secimg img{
+    width: 280px;
+    height: 300px;
+    margin: 0 30px;
+}
+.thereimg img{
+    width: 280px;
+    height: 300px;
+}
+
+  
+ 
+ 
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        width:100%;
+        height:95vh;
+        margin:0;
+        background: linear-gradient(rgba(51, 51, 51, 0.314) , rgba(21, 22, 22, 0.643)),url(https://images.unsplash.com/photo-1585068294277-b408285aee4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cm9hZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navabove{
+        width:100%;
+        height:90px;
+    }
+    .navabove img{
+        width:100px;
+        height:70px;
+        margin:3px 100px;
+        z-index: 1;
+    }
+    .navabove ul{
+        margin-top: 30px;
+        margin-left: 800px;
+    }
+    .navabove a{
+        font-size: 1rem;
+        padding-left: 30px;
+    } 
+    .logos{
+        font-size: 1.3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(241, 233, 233);
+        margin: -50px 200px;
+        display: flex;
+   }
+    .logos span{
+        color: #fd5203;
+    }
+   
+.imgheder h1{
+    font-size: 1.1rem;
+    margin: 40px 370px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .imgheder p{
+     margin: 40px 390px;
+     font-size: 1.3rem;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ .imgcon{
+     display:flex;
+     margin: 180px 170px;
+ }  
+ 
+     
+
+}
